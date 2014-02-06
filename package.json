@@ -1,9 +1,9 @@
 {
   "name": "paper",
-  "title": "paper",
+  "title": "Paper for Instapaper",
   "id": "jid1-LZyMoqAIcayrQg",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 2.0",
+  "description": "Handy Instapaper extension",
+  "author": "George Timoschenko",
+  "license": "MIT",
   "version": "0.1"
 }
