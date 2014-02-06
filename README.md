@@ -3,8 +3,10 @@ Paper
 
 This is a better Instapaper addon for Firefox. Features:
 
-+ Alt+Click on a link to read it later, just like in old forgotten [InstapaperIt for Safari](http://elasticthreads.tumblr.com/post/675433975/safari-extensions)
-+ Little icon in address bar (...)
++ Alt+Click on a link to read it later, just like in [InstapaperIt](http://elasticthreads.tumblr.com/post/675433975/safari-extensions)
++ Little icon in address bar which looks like built-in Firefox one
++ No pop-ups or any other hassle
++ Lightweight
 
 Install
 -------
