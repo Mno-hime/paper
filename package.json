@@ -27,7 +27,7 @@
     "name": "modifier",
     "title": "Modifier",
     "description": "Allows to send an article to Instapaper by clicking a link while holding down a modifier key from the list. You will need to restart your browser.",
-    "value": "none",
+    "value": "shift",
     "options": [{
       "value": "none",
       "label": "None"
