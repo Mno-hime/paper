@@ -23,10 +23,26 @@
     "description": "Combination of keys used to save URL of your current active tab. Leave blank to turn it off. You will need to restart your browser. See hotkey syntax: http://mzl.la/1nTyp0M.",
     "value": ""
   }, {
-    "type": "string",
-    "name": "click",
-    "title": "Point hotkey",
-    "description": "Combination of keys, including left mouse click, which sends the pressed link to Instapaper. Leave blank to turn it off. You will need to restart your browser.",
-    "value": ""
+    "type": "menulist",
+    "name": "modifier",
+    "title": "Modifier",
+    "description": "Allows to send an article to Instapaper by clicking a link while holding down a modifier key from the list. You will need to restart your browser.",
+    "value": "none",
+    "options": [{
+      "value": "none",
+      "label": "None"
+    }, {
+      "value": "alt",
+      "label": "Alt"
+    }, {
+      "value": "ctrl",
+      "label": "Ctrl"
+    }, {
+      "value": "shift",
+      "label": "Shift"
+    }, {
+      "value": "cmd",
+      "label": "Command"
+    }]
   }]
 }
