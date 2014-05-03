@@ -9,14 +9,14 @@ function listener(event) {
   }
 }
 
-function checkModifier(event) {
-  switch (self.options.modifier) {
-    case "alt":   return event.altKey;
-    case "ctrl":  return event.ctrlKey;
-    case "shift": return event.shiftKey;
-    case "cmd":   return event.metaKey;
+var checkModifier = function(modifier) {
+  switch (modifier) {
+    case "alt":   return function (e) { return e.altKey }
+    case "ctrl":  return function (e) { return e.ctrlKey }
+    case "shift": return function (e) { return e.shiftKey }
+    case "cmd":   return function (e) { return e.metaKey }
   }
-}
+}(self.options.modifier);
 
 window.addEventListener("keydown", function(event) {
   if (checkModifier(event))
