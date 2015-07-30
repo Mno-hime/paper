@@ -31,13 +31,13 @@ sent to Instapaper only via HTTPS, but stored on your machine unencrypted.
 Go to Tools→Add-ons or just press Shift+Command+A on Mac or Ctrl+Shift+A
 on Windows/Linux:
 
-![Tools→Add-ons](shots/tools.png)
+![Tools→Add-ons](doc/tools.png)
 
 Then you will see the Paper addon in the list. Click on “Preferences” button:
 
-![Paper→Preferences](shots/addons.png)
+![Paper→Preferences](doc/addons.png)
 
-![Preferences](shots/preferences.png)
+![Preferences](doc/preferences.png)
 
 Then fill the form with your username and password. You can also specify
 a hotkey to add the current page to Instapaper. See hotkey syntax
