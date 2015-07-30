@@ -1,4 +1,4 @@
-var button = require('button');
+var button = require('lib/button');
 var data = require('sdk/self').data;
 var hotkeys = require('sdk/hotkeys');
 var menu = require('sdk/context-menu');
