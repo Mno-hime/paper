@@ -35,32 +35,32 @@
       "value": "S",
       "label": "Shift"
     }, {
-      "value": "C",
-      "label": "Ctrl"
-    }, {
-      "value": "CS",
-      "label": "Ctrl+Shift"
-    }, {
-      "value": "CA",
-      "label": "Ctrl+Alt"
-    }, {
       "value": "A",
       "label": "Alt"
-    }, {
-      "value": "AS",
-      "label": "Alt+Shift"
     }, {
       "value": "AC",
       "label": "Alt+Ctrl"
     }, {
+      "value": "AS",
+      "label": "Alt+Shift"
+    }, {
+      "value": "C",
+      "label": "Ctrl"
+    }, {
+      "value": "CA",
+      "label": "Ctrl+Alt"
+    }, {
+      "value": "CS",
+      "label": "Ctrl+Shift"
+    }, {
       "value": "M",
       "label": "Command"
     }, {
-      "value": "MS",
-      "label": "Command+Shift"
-    }, {
       "value": "MC",
       "label": "Command+Ctrl"
+    }, {
+      "value": "MS",
+      "label": "Command+Shift"
     }]
   }, {
     "type": "bool",
