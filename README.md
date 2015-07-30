@@ -46,8 +46,9 @@ a hotkey to add the current page to Instapaper. See hotkey syntax
 Shift-clicking on link adds it to Instapaper by default. You can change
 the modifier key, or turn the feature off.
 
-When you are finished, try it out! Press the ![Send to Instapaper](data/default.png)
-button and if your credentials are OK, it will change to ![the tick](data/success.png).
+When you are finished, try it out!  
+Press the ![Send to Instapaper](data/default.png) button and if your
+credentials are OK, it will change to ![the tick](data/success.png).
 
 Authors
 -------
