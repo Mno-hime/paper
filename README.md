@@ -10,12 +10,12 @@ Supports notifications, off by default.
 
 [mozilla]: https://addons.mozilla.org/en-US/firefox/addon/paper-for-instapaper/
 
-Configure
----------
+Configuration
+-------------
 
-To use Paper, you need to provide your username and password. They are
-sent only to Instapaper and only through an encrypted connection, but
-they are both stored on your machine unencrypted.
+To use Paper you will need to provide it with your username and password.
+They are sent only to Instapaper and only through an encrypted connection,
+but they are both stored on your machine unencrypted.
 
 Go to Tools→Add-ons or just press Shift+Command+A on Mac or Ctrl+Shift+A
 on Windows/Linux:
@@ -53,10 +53,9 @@ and ![tick][success] are taken from there with the author's permission.
 
 [instapaperit]: http://elasticthreads.tumblr.com/post/675433975/safari-extensions
 
-### ![Paper logo](icon.png)
+The addon logo is based on the [Farm-Fresh newspaper][source] icon by
+[FatCow Web Hosting][author] under [CC BY][license].
 
-The logo is based on the [Farm-Fresh newspaper][source] icon by [FatCow Web Hosting](http://www.fatcow.com/free-icons/) under [CC BY 3.0][cc] license.
-
-[cc]: https://creativecommons.org/licenses/by/3.0/us/deed.en
-[fatcow]: http://www.fatcow.com/free-icons/
+[author]: http://www.fatcow.com/free-icons/
+[license]: https://creativecommons.org/licenses/by/3.0/us/deed.en
 [source]: https://commons.wikimedia.org/wiki/File:Farm-Fresh_newspaper.png
