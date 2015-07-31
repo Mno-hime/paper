@@ -4,6 +4,19 @@ let data = require('sdk/self').data;
 let prefs = simplePrefs.prefs;
 let tabs = require('sdk/tabs');
 
+let isHotkeyBeingAssigned = false;
+
+simplePrefs.on('modifyCombo', function() {
+  if (!isHotkeyBeingAssigned) {
+    isHotkeyBeingAssigned = true;
+    let worker = tabs.activeTab.attach({
+      contentScriptFile: data.url('hotkey.js')
+    });
+    worker.port.on('press', function(combo) { prefs.combo = combo });
+    worker.port.on('stop', function() { isHotkeyBeingAssigned = false });
+  }
+});
+
 let button = require('lib/button');
 let $ = button.create();
 
@@ -35,7 +48,7 @@ let menu = require('sdk/context-menu');
 
 if (prefs.rightClick == true) {
   menu.Item({
-    label: 'Send to Instapaper',
+    label: locale.get('send_to_instapaper'),
     context: menu.SelectorContext('a[href]'),
     contentScriptFile: data.url('menu.js'),
     onMessage: function(url) { button.send($, url) }
