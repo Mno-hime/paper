@@ -1,65 +1,47 @@
-Paper ![Icon](icon.png)
+Paper ![icon](icon.png)
 =====
-[![Code Climate](https://codeclimate.com/github/yegortimoschenko/paper/badges/gpa.svg)](https://codeclimate.com/github/yegortimoschenko/paper)
 
-There was always the same damn problem with each of Instapaper browser
-extensions: they were unpractical to add links in a bulk. You should
-open the page and only then you could send it to your Instapaper.
+Simple Instapaper addon for Firefox. You can press toolbar button, right-click menu option, or customizable hotkey to add current page to Instapaper, or you can add links in bulk by shift-clicking them.
 
-Then I have found [one for Safari](http://elasticthreads.tumblr.com/post/675433975/safari-extensions),
-great extension indeed, but I am Firefox kind of guy, so here it goes.
+Supports notifications, off by default.
 
-It’s pretty customizable, but by default you add links just by Shift-clicking
-on them. A button is also there. You can also make a hotkey to save the current
-page without pressing the button, but it is turned off by default.
-
-Installation
-------------
-
-Avaliable via [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/paper-for-instapaper/).
-You can download beta releases at
-[GitHub Releases](https://github.com/somu/paper/releases).
-
+[Get it from Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/paper-for-instapaper/).
 
 Configuration
 -------------
 
 To use Paper, you need to provide your username and password. They are
-sent to Instapaper only via HTTPS, but stored on your machine unencrypted.
-
+sent only to Instapaper and only through an encrypted connection, but
+they are both stored on your machine unencrypted.
 
 Go to Tools→Add-ons or just press Shift+Command+A on Mac or Ctrl+Shift+A
 on Windows/Linux:
 
 ![Tools→Add-ons](doc/tools.png)
 
-Then you will see the Paper addon in the list. Click on “Preferences” button:
+Then you will see the Paper addon in the list. Click on “Preferences” button
+and fill the form:
 
 ![Paper→Preferences](doc/addons.png)
 
 ![Preferences](doc/preferences.png)
 
-Then fill the form with your username and password. You can also specify
-a hotkey to add the current page to Instapaper. See hotkey syntax
-[here](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/hotkeys).
+Shift-clicking on a link adds it to Instapaper by default. You can change
+the modifier key, or turn the feature off altogether to make your browser
+a very little bit faster.
 
-Shift-clicking on link adds it to Instapaper by default. You can change
-the modifier key, or turn the feature off.
-
-When you are finished, try it out!  
+When you are finished with settings, go try to send [some article][article].
 Press the ![Send to Instapaper](data/default.png) button and if your
-credentials are OK, it will change to ![the tick](data/success.png).
+credentials are OK, it will change to ![the tick](data/success.png). If it
+didn't, double check your preferences and if the problem persists,
+[write me back](mailto:mail@yegortimoshenko.com).
 
-Authors
+[article]: http://www.rollingstone.com/culture/features/ben-schlappig-airlines-fly-free-20150720
+
+Credits
 -------
 
-[Elasticthreads](http://elasticthreads.tumblr.com/post/675433975/safari-extensions)
-is the author of the original idea. Icons are taken from his InstapaperIt
-addon.
-
-[Instapaper](http://instapaper.com) is the greatest read-it-later application
-avaliable on the market. I tried both Readability and Pocket and returned back
-to Instapaper. Thanks, [Marco](http://www.marco.org).
+Inspired by [InstapaperIt](http://elasticthreads.tumblr.com/post/675433975/safari-extensions) for Safari. Button icons are taken from his extension with the author's permission.
 
 Icon is based on the [Farm-Fresh newspaper](https://commons.wikimedia.org/wiki/File:Farm-Fresh_newspaper.png)
 icon by [FatCow Web Hosting](http://www.fatcow.com/free-icons/) which is under
