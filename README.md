@@ -29,11 +29,11 @@ and fill the form:
 
 ![Preferences](doc/preferences.png)
 
-Shift-clicking on a link adds it to Instapaper by default. You can change
-the modifier key, or turn the feature off altogether to make your browser
-a very little bit faster.
+Shift-clicking on a link sends it to Instapaper by default. You can change
+the modifier key, or turn the feature off altogether to increase page
+rendering speed a very little bit.
 
-When you are finished with settings, go try to send [some article][article].
+When you are done with settings, go try to send [some article][article].
 Press the ![Send to Instapaper][default] button and if your credentials are OK,
 it will change to ![the tick][success]. If it didn't, double check your preferences.
 
