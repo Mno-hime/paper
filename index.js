@@ -1,13 +1,13 @@
-var button = require('lib/button');
-var data = require('sdk/self').data;
-var hotkeys = require('sdk/hotkeys');
-var menu = require('sdk/context-menu');
-var prefs = require('sdk/simple-prefs').prefs;
-var tabs = require('sdk/tabs');
+let simplePrefs = require('sdk/simple-prefs');
 
-var { PageMod } = require('sdk/page-mod');
+let data = require('sdk/self').data;
+let prefs = simplePrefs.prefs;
+let tabs = require('sdk/tabs');
 
-var $ = button.create();
+let button = require('lib/button');
+let $ = button.create();
+
+let hotkeys = require('sdk/hotkeys');
 
 if (prefs.combo != '') {
   hotkeys.Hotkey({
@@ -16,8 +16,10 @@ if (prefs.combo != '') {
   });
 }
 
+let pageMod = require('sdk/page-mod');
+
 if (prefs.modifier != 'N') {
-  PageMod({
+  pageMod.PageMod({
     contentScriptFile: data.url('listener.js'),
     contentScriptOptions: { modifier: prefs.modifier },
     contentScriptWhen: 'ready',
@@ -27,6 +29,9 @@ if (prefs.modifier != 'N') {
     }
   });
 }
+
+let locale = require('sdk/l10n');
+let menu = require('sdk/context-menu');
 
 if (prefs.rightClick == true) {
   menu.Item({
