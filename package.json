@@ -19,20 +19,19 @@
     "type": "string",
     "name": "combo",
     "title": "Hotkey",
-    "description": "Saves active page to Instapaper when pressed. Leave blank to turn the feature off. Restart your browser in order to apply changes.",
+    "description": "Saves current page to Instapaper when pressed. Leave blank to turn it off. Restart your browser in order to apply changes.",
     "value": ""
   }, {
     "type": "control",
     "label": "Set",
     "name": "setCombo",
     "title": "Set hotkey",
-    "description": "Press the button on the right and then press your hotkey on your keyboard. Press ESC to cancel."
+    "description": "Press the button on the right and then press hotkey on your keyboard. Press ESC to cancel."
   }, {
     "type": "menulist",
     "name": "modifier",
     "title": "Modifier key",
-    "description": "",
-    "description": "Allows to send an article to Instapaper by clicking a link while holding down a modifier key from the list. You will need to restart your browser.",
+    "description": "While pressed, left-click on a link and it will be sent to Instapaper. Restart your browser in order to apply changes.",
     "value": "S",
     "options": [{
       "value": "N",
@@ -72,13 +71,13 @@
     "type": "bool",
     "name": "notifications",
     "title": "Notifications",
-    "description": "Makes system notifications when you successfully add a link to Instapaper. Discouraged to use since it makes too much noise.",
+    "description": "Sends a system notification when you successfully add a link to Instapaper. Discouraged to use, makes too much noise.",
     "value": false
   }, {
     "type": "bool",
     "name": "rightClick",
-    "title": "Right-click option",
-    "description": "Adds a “Send To Instapaper” option to right-click context menu. You will need to restart your browser.",
+    "title": "Right-click menu option",
+    "description": "Adds “Send To Instapaper” option to context menu when you right-click a link. Restart browser in order to apply changes.",
     "value": true
   }]
 }
