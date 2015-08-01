@@ -1,4 +1,4 @@
-function emitURL(event) {
+function emit(event) {
   var link = event.target;
   while (link && link.localName != 'a')
     link = link.parentNode;
@@ -9,7 +9,7 @@ function emitURL(event) {
   }
 }
 
-var isModifierPressed = {
+let isModifierPressed = {
   'S':  function(e) { return e.shiftKey },
   'A':  function(e) { return e.altKey },
   'AC': function(e) { return e.altKey && e.ctrlKey },
@@ -23,11 +23,9 @@ var isModifierPressed = {
 }[self.options.modifier];
 
 window.addEventListener('keydown', function(event) {
-  if (isModifierPressed(event))
-    window.addEventListener('click', emitURL, false);
+  if (isModifierPressed(event)) window.addEventListener('click', emit);
 });
 
 window.addEventListener('keyup', function(event) {
-  if (!isModifierPressed(event))
-    window.removeEventListener('click', emitURL, false);
+  if (!isModifierPressed(event)) window.removeEventListener('click', emit);
 });
