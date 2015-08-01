@@ -14,23 +14,24 @@
     "type": "string",
     "name": "password",
     "title": "Password",
-    "description": "Stored on your computer non-encrypted. Sent only to Instapaper servers and only through encrypted connection. Leave empty if your password is not set."
+    "description": "Stored on your computer unencrypted. Sent only to Instapaper servers and only through encrypted connection. Leave empty if your account doesn't have a password."
   }, {
     "type": "string",
     "name": "combo",
     "title": "Hotkey",
-    "description": "Combination of keys used to save URL of your current active tab. Leave blank to turn it off. You will need to restart your browser. See hotkey syntax: http://mzl.la/1nTyp0M.",
+    "description": "Saves active page to Instapaper when pressed. Leave blank to turn the feature off. Restart your browser in order to apply changes.",
     "value": ""
   }, {
     "type": "control",
-    "label": "Update",
-    "name": "modifyCombo",
-    "title": "Enter hotkey",
-    "description": ""
+    "label": "Set",
+    "name": "setCombo",
+    "title": "Set hotkey",
+    "description": "Press the button on the right and then press your hotkey on your keyboard. Press ESC to cancel."
   }, {
     "type": "menulist",
     "name": "modifier",
-    "title": "Modifier",
+    "title": "Modifier key",
+    "description": "",
     "description": "Allows to send an article to Instapaper by clicking a link while holding down a modifier key from the list. You will need to restart your browser.",
     "value": "S",
     "options": [{
