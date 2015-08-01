@@ -1,6 +1,6 @@
 function emit(event) {
   var link = event.target;
-  while (link && link.localName != 'a')
+  while (link && link.localName !== 'a')
     link = link.parentNode;
 
   if (link) {

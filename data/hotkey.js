@@ -11,7 +11,7 @@ function emit(event) {
   if (event.metaKey) hotkey = hotkey + 'meta-';
   if (event.shiftKey && hotkey) hotkey = hotkey + 'shift-';
 
-  if (hotkey || event.keyCode == 27 || event.keyCode == 13) {
+  if (hotkey || event.keyCode === 27 || event.keyCode === 13) {
     if (hotkey) {
       hotkey = hotkey + String.fromCharCode(event.keyCode).toLowerCase();
       self.port.emit('press', hotkey);
