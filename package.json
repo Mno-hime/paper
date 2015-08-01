@@ -2,7 +2,7 @@
   "name": "paper",
   "title": "Paper",
   "id": "jid1-3MbuIoOYk03BMg",
-  "description": "Instapaper add-on for Firefox that sends an article to Instapaper by Shift-clicking a link, doesn't make any noise and is pretty customizable. Great for adding links from one page in a bulk, you just click on each one and there you go. Old-fashioned action button is provided as well.",
+  "description": "Instapaper addon. Press toolbar button, right-click menu option, or customizable hotkey to send current page to Instapaper. Send links in bulk by shift-clicking them.",
   "author": "Yegor Timoshenko",
   "license": "ISC",
   "version": "1.0.0",
