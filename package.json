@@ -5,7 +5,7 @@
   "description": "Instapaper addon. Press toolbar button, right-click menu option, or customizable hotkey to send current page to Instapaper. Send links in bulk by shift-clicking them.",
   "author": "Yegor Timoshenko",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "preferences": [{
     "type": "string",
     "name": "username",
@@ -79,5 +79,11 @@
     "title": "Right-click menu option",
     "description": "Adds “Send To Instapaper” option to context menu when you right-click a link. Restart browser in order to apply changes.",
     "value": true
+  }, {
+    "type": "bool",
+    "name": "readShortcuts",
+    "title": "Shortcuts in Instapaper read mode",
+    "description": "Enables shortcuts for Instapaper reading mode. j and k to scroll down/up, a to archive an article, l to like an article and d to delete it.",
+    "value": true 
   }]
 }
