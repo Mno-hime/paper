@@ -48,8 +48,8 @@ If you have any trouble with the addon, [write me back][email].
 Credits
 -------
 
-Inspired by [InstapaperIt][instapaperit] for Safari. ![Instapaper icon][default]
-and ![tick][success] are taken from there with the author's permission.
+Inspired by [InstapaperIt][instapaperit] for Safari. ![The tick][success]
+is taken from there with the author's permission.
 
 [instapaperit]: http://elasticthreads.tumblr.com/post/675433975/safari-extensions
 
