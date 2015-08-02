@@ -1,6 +1,4 @@
 window.addEventListener('keydown', function(event) {
-  event.preventDefault();
-
   switch (event.keyCode) { 
     case 74: // j
       window.scrollBy(0, 100);
