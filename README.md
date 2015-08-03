@@ -38,7 +38,7 @@ Press the ![Send to Instapaper][default] button and if your credentials are OK,
 it will change to ![the tick][success]. If it didn't, double check your preferences.
 
 [default]: data/default-16.png
-[success]: data/success.png
+[success]: data/success-16.png
 
 If you have any trouble with the addon, [write me back][email].
 
