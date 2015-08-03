@@ -1,10 +1,12 @@
+let step = self.options.step;
+
 window.addEventListener('keydown', function(event) {
   switch (event.keyCode) { 
     case 74: // j
-      window.scrollBy(0, 100);
+      window.scrollByLines(step);
       break;
     case 75: // k
-      window.scrollBy(0, -100);
+      window.scrollByLines(-step);
       break;
     case 65: // a
       document.getElementsByClassName('js_archive_single')[0].click();
