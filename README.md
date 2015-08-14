@@ -35,7 +35,7 @@ hotkey on your keyboard. In this case, it is CTRL-K:
 
 ![Hotkey capture](doc/hotkey.gif)
 
-To disable, erase `Hotkey` field.
+To disable, erase contents of `Hotkey` field.
 
 Shift-clicking on a link sends it to Instapaper by default. You can change
 the modifier key, or turn the feature off altogether.
