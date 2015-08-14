@@ -5,7 +5,7 @@
   "description": "Instapaper addon. Press toolbar button, right-click menu option, or customizable hotkey to send current page to Instapaper. Send links in bulk by shift-clicking them.",
   "author": "Yegor Timoshenko",
   "license": "ISC",
-  "version": "1.0.0-beta5",
+  "version": "1.0.0-beta6",
   "preferences": [{
     "type": "string",
     "name": "username",
